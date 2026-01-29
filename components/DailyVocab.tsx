@@ -120,7 +120,7 @@ const DailyVocab: React.FC<DailyVocabProps> = ({ stats, setStats, words, isLoadi
     }
 
     // --- 2. STANDARD DAILY STAGE LOGIC ---
-    const WORDS_PER_DAY = 25;
+    const WORDS_PER_DAY = 15;
     const REVIEW_WORDS_COUNT = 5;
     
     // A. Sequential 25 words for the day
